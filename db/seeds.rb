@@ -9,11 +9,11 @@
 User.destroy_all
 Portfolio.destroy_all
 
-krunal = User.create(firstname: 'Krunal', lastname: 'patel', username: 'krunalp', password: 'kp12345', email: 'kp12@live.com', remaining_balance: 500, invested_balance: 400)
+krunal = User.create(firstname: 'Krunal', lastname: 'patel', username: 'krunalp', password: 'kp12345', email: 'kp12@live.com', remaining_balance: 800, invested_balance: 200)
 
-kris = User.create(firstname: 'Kris', lastname: 'shah', username: 'kriss', password: 'ks34567', email: 'ks23@live.com', remaining_balance: 600, invested_balance: 300)
-demo = User.create(firstname: 'demo', lastname: 'demo', username: 'demo', password: 'demo123', email: 'demo@live.com', remaining_balance: 500, invested_balance: 400)
-usertest = User.create(firstname: 'usertest', lastname: 'test', username: 'usertest', password: 'usertest123', email: 'test@live.com', remaining_balance: 600, invested_balance: 300)
+kris = User.create(firstname: 'Kris', lastname: 'shah', username: 'kriss', password: 'ks34567', email: 'ks23@live.com', remaining_balance: 660, invested_balance: 340)
+demo = User.create(firstname: 'demo', lastname: 'demo', username: 'demo', password: 'demo123', email: 'demo@live.com', remaining_balance: 800, invested_balance: 200)
+usertest = User.create(firstname: 'usertest', lastname: 'test', username: 'usertest', password: 'usertest123', email: 'test@live.com', remaining_balance: 660, invested_balance: 340)
 
 # anjali = User.create(firstname: 'Anjali', lastname: 'jain', username: 'anjali', password: 'aj45678', email: 'aj15@live.com', remaining_balance: 500, invested_balance: 400)
 # zalak = User.create(firstname: 'Zalak', lastname: 'dave', username: 'zalak', password: 'zd67890', email: 'zd11@live.com', remaining_balance: 500, invested_balance: 400)
