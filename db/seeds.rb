@@ -12,8 +12,8 @@ Portfolio.destroy_all
 krunal = User.create(firstname: 'Krunal', lastname: 'patel', username: 'krunalp', password: 'kp12345', email: 'kp12@live.com', remaining_balance: 500, invested_balance: 400)
 
 kris = User.create(firstname: 'Kris', lastname: 'shah', username: 'kriss', password: 'ks34567', email: 'ks23@live.com', remaining_balance: 600, invested_balance: 300)
-demo = User.create(firstname: 'demo', lastname: 'demo', username: 'demo', password: 'demo123', email: 'demo@live.com', remaining_balance: 1000, invested_balance: 0)
-usertest = User.create(firstname: 'usertest', lastname: 'test', username: 'usertest', password: 'usertest123', email: 'test@live.com', remaining_balance: 1000, invested_balance: 0)
+demo = User.create(firstname: 'demo', lastname: 'demo', username: 'demo', password: 'demo123', email: 'demo@live.com', remaining_balance: 500, invested_balance: 400)
+usertest = User.create(firstname: 'usertest', lastname: 'test', username: 'usertest', password: 'usertest123', email: 'test@live.com', remaining_balance: 600, invested_balance: 300)
 
 # anjali = User.create(firstname: 'Anjali', lastname: 'jain', username: 'anjali', password: 'aj45678', email: 'aj15@live.com', remaining_balance: 500, invested_balance: 400)
 # zalak = User.create(firstname: 'Zalak', lastname: 'dave', username: 'zalak', password: 'zd67890', email: 'zd11@live.com', remaining_balance: 500, invested_balance: 400)
@@ -23,3 +23,5 @@ usertest = User.create(firstname: 'usertest', lastname: 'test', username: 'usert
 
 portfolio1 = Portfolio.create(user_id: krunal.id, price: 200, ticker: 'AAPL', quantity: 1, total_price: 200)
 portfolio2 = Portfolio.create(user_id: kris.id, price: 170, ticker: 'V', quantity: 2, total_price: 340)
+portfolio3 = Portfolio.create(user_id: demo.id, price: 200, ticker: 'AAPL', quantity: 1, total_price: 200)
+portfolio4 = Portfolio.create(user_id: usertest.id, price: 170, ticker: 'V', quantity: 2, total_price: 340)
